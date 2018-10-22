@@ -1,0 +1,13 @@
+name: react_async
+description: Provides components for building asynchronous user interfaces out of dart-react (inspired by Flutter).
+homepage: https://github.com/aloisdeniel/dart-react_async
+author: Aloïs Deniel <alois.deniel@outlook.com>
+version: 0.1.0
+environment:
+  sdk: '>=2.0.0 <3.0.0' 
+dependencies:
+  react: ^4.5.0
+  meta: ^1.1.6
+dev_dependencies:
+  build_runner: ">=0.8.10 <2.0.0" 
+  build_web_compilers: ">=0.3.6 <0.5.0"

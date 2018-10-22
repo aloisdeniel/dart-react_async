@@ -1,16 +1,3 @@
-# react_async
-
-[![pub package](https://img.shields.io/pub/v/react_async.svg)](https://pub.dartlang.org/packages/react_async)
-
-Provides components for building asynchronous user interfaces out of [dart-react](https://github.com/cleandart/react-dart).
-
-This makes easy to adopt the [BloC pattern](https://medium.com/flutter-io/build-reactive-mobile-apps-in-flutter-companion-article-13950959e381) and share a major part of your Flutter application logic with a website since the components are inspired by their Flutter equivalent.
-
-## Quickstart
-
-The example below shows you how to use `StreamBuilder` and `FutureBuilder`.
-
-```dart
 import 'dart:async';
 import 'dart:html';
 import 'package:react_async/async.dart';
@@ -71,8 +58,3 @@ main() {
   react_client.setClientConfiguration();
   react_dom.render(Home({}), querySelector('#react_mount_point'));
 }
-```
-
-## Issues
-
-Please file any issues, bugs, or feature requests on [GitHub](https://github.com/aloisdeniel/dart-react-async/issues/new).
